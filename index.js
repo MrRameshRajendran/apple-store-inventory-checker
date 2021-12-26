@@ -11,20 +11,14 @@ const args = process.argv.slice(2);
 
 let skusForCountry = (countrySkuCode) => {
   return {
-    [`MKGR3${countrySkuCode}/A`]: `14" M1 Pro 8 Core CPU 14 Core GPU 512GB Silver`,
-    [`MKGP3${countrySkuCode}/A`]: '14" M1 Pro 8 Core CPU 14 Core GPU 512GB Space Grey',
-    [`MKGT3${countrySkuCode}/A`]: '14" M1 Pro 10 Core CPU 16 Core GPU 1TB Silver',
-    [`MKGQ3${countrySkuCode}/A`]: '14" M1 Pro 10 Core CPU 16 Core GPU 1TB Space Grey',
-    [`MMQX3${countrySkuCode}/A`]: '14" M1 Max 10 Core CPU 32 Core GPU 2TB Silver, Ultimate',
-    [`MKH53${countrySkuCode}/A`]: '14" M1 Max 10 Core CPU 32 Core GPU 2TB Space Grey, Ultimate',
-    [`MK1H3${countrySkuCode}/A`]: '16" M1 Max 10 Core CPU 32 Core GPU 1TB Silver',
-    [`MK1A3${countrySkuCode}/A`]: '16" M1 Max 10 Core CPU 32 Core GPU 1TB Space Grey',
-    [`MMQW3${countrySkuCode}/A`]: '16" M1 Max 10 Core CPU 32 Core GPU 4TB Silver, Ultimate',
-    [`MK233${countrySkuCode}/A`]: '16" M1 Max 10 Core CPU 32 Core GPU 4TB Space Grey, Ultimate',
-    [`MK1F3${countrySkuCode}/A`]: '16" M1 Pro 10 Core CPU 16 Core GPU 1TB Silver',
-    [`MK193${countrySkuCode}/A`]: '16" M1 Pro 10 Core CPU 16 Core GPU 1TB Space Grey',
-    [`MK1E3${countrySkuCode}/A`]: '16" M1 Pro 10 Core CPU 16 Core GPU 512GB Silver',
-    [`MK183${countrySkuCode}/A`]: '16" M1 Pro 10 Core CPU 16 Core GPU 512GB Space Grey',
+    [`MMQX3${countrySkuCode}/A`]: 'MMQX3 14" M1 Max 10 Core CPU 32 Core GPU 2TB Silver, Ultimate',
+    [`MKH53${countrySkuCode}/A`]: 'MKH53 14" M1 Max 10 Core CPU 32 Core GPU 2TB Space Grey, Ultimate',
+    [`MMQW3${countrySkuCode}/A`]: 'MMQW3 16" M1 Max 10 Core CPU 32 Core GPU 4TB Silver, Ultimate',
+    [`MK233${countrySkuCode}/A`]: 'MK233 16" M1 Max 10 Core CPU 32 Core GPU 4TB Space Grey, Ultimate',
+    [`MK1A3${countrySkuCode}/A`]: 'MK1A3 high',
+    [`MK1H3${countrySkuCode}/A`]: 'MK1H3 high',
+    [`MKGR3${countrySkuCode}/A`]: 'MKGR3 high',
+    [`MKGP3${countrySkuCode}/A`]: 'MKGP3 high',
   }
 }
 
